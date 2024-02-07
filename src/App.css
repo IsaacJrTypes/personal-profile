@@ -1,3 +1,8 @@
+#background-img {
+  background-image: url('./img/mario_bg.png');
+}
+
+
 .App {
   text-align: center;
 }

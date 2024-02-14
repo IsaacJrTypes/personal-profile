@@ -1,6 +1,6 @@
 import './App.css';
-import { Profile } from './components/profile';
-import { Hobbies } from './components/hobbies';
+import UserProfile from './components/UserProfile.js';
+import Hobbies from './components/Hobbies.js';
 import bgImage from './img/mario_bg.png';
 
 
@@ -10,7 +10,7 @@ function App() {
 
     <div className=" h-screen mx-auto flex flex-col justify-center items-center  " style={{ backgroundImage: `url(${bgImage})` }}>
       <div className=' mx-auto '>
-        <Profile />
+        <UserProfile name="Mario" />
         <Hobbies />
       </div>
     </div>

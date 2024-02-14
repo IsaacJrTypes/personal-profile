@@ -1,9 +1,11 @@
 import emptyBlock from '../img/emptyBlock.png';
 
-export function Hobbies() {
+const styling = { backgroundImage: `url(${emptyBlock})`, backgroundSize: 'cover' };
+
+function Hobbies() {
     return (
-        <div class=" mx-auto w-1/3 text-center py-4" style={{ backgroundImage: `url(${emptyBlock})`, backgroundSize: 'cover' }}>
-            <h2 class='text-2xl backdrop-blur-sm'>Hobbies and Interests</h2>
+        <div className=" mx-auto w-1/3 text-center py-4" style={styling}>
+            <h2 className='text-2xl backdrop-blur-sm'>Hobbies and Interests</h2>
             <ul>
                 <li>Mushroom Hunting</li>
                 <li>Swimming</li>
@@ -15,3 +17,4 @@ export function Hobbies() {
         </div>
     );
 }
+export default Hobbies;
